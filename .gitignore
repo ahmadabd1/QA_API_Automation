@@ -1,0 +1,26 @@
+@"
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env
+
+# PyTest cache
+.pytest_cache/
+
+# Reports
+report.html
+*.xml
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
